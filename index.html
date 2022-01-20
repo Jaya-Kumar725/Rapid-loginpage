@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+    <div class="container">
+       <div class="card">
+           <img class="moh-image" src="images/moh-logo 3.png" alt="moh">
+           <h2 class="card-title">WELCOME TO SUSY!</h2>
+           <form class="login-form">
+              <input class="input" type="text" placeholder="User Name" name="fname" required><i class="fas fa-user"></i><br>
+              <input class="input" type="password" placeholder="Password" name="lname" required><i class="fas fa-lock"></i><br>
+              <input class="login-checkbox" type="checkbox" name="Keep me signed in">
+              <label class="checkbox-label">Keep Me Logged In</label>
+              <a class="forgot-password" href="#">Forgot Password?</a><br>
+              <button class="login-btn" type="submit" onclick="alert('Ok')">LOG IN</button>
+              <p>New User?<a href="#" class="form-span"> Register</a> here</p>
+           </form>
+       </div>
+       <div class="login-bg">
+           <img src="images/login-bg.png" alt="login-bg" style="height: 100%; width: 100%;">
+       </div>
+    </div>
+</body>
+</html>

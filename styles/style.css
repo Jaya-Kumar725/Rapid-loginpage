@@ -1,0 +1,110 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.card {
+  position: absolute;
+  background-color: white;
+  height: 462px;
+  width: 400px;
+  z-index: 1;
+  left: 890px;
+  top: 64px;
+  border: 2px solid gray;
+  border-radius: 32px;
+  text-align: center;
+  -webkit-box-shadow: 0 0 15px #3f4141;
+          box-shadow: 0 0 15px #3f4141;
+}
+
+.login-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.moh-image {
+  width: 313px;
+  height: 125px;
+}
+
+.card-title {
+  margin-top: 0px;
+  color: #106ba2;
+  /* font-family: "Indie Flower", cursive; */
+}
+
+.login-form {
+  padding: 15px;
+}
+
+.login-form .input {
+  font-size: 16px;
+  margin-top: 32px;
+  padding: 5px;
+  width: 320px;
+  border: none;
+  border-bottom: 2px solid #106ba2;
+}
+
+.login-form input:focus {
+  outline: none !important;
+  border: 1px solid #106ba2;
+  -webkit-box-shadow: 0 0 10px #719ECE;
+          box-shadow: 0 0 10px #719ECE;
+  border-radius: 5px;
+}
+
+.login-checkbox {
+  margin-top: 10px;
+}
+
+.checkbox-label {
+  font-size: 13px;
+  margin-top: 10px;
+  color: gray;
+}
+
+.login-form .forgot-password {
+  font-size: 13px;
+  margin-top: 10px;
+  margin-left: 70px;
+  color: gray;
+  text-decoration: none;
+}
+
+.login-btn {
+  background-color: #12a712;
+  font-size: 16px;
+  color: white;
+  padding: 10px 50px;
+  margin-top: 25px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
+.login-form p {
+  margin-top: 0px;
+  font-size: 14px;
+  margin-top: 3px;
+}
+
+.form-span {
+  color: red;
+  text-decoration: none;
+}
+
+.fas {
+  position: absolute;
+  color: gray;
+  margin-top: 11%;
+  right: 10%;
+}
+/*# sourceMappingURL=style.css.map */
